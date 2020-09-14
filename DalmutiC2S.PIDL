@@ -1,0 +1,5 @@
+[marshaler(cs)=MyMarshaler]
+global SocialGameC2S 3000
+{
+	RequestLogon([in] String villeName, [in] bool isNewVille);
+}

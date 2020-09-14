@@ -1,0 +1,5 @@
+[marshaler(cs)=DalmutiClient.Marshaler]
+global SocialGameS2C 4000
+{
+	ReplyLogon([in] int groupID, [in] int result, [in] String comment);
+}
